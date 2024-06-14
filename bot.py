@@ -33,17 +33,26 @@ from Script import script
 from datetime import date, datetime 
 from aiohttp import web
 from plugins import web_server
+#files
+from auto_approve import *
+from rename import *
+from stream import *
+from util import *
+from bot import *
+from template import *
+from server import *
+from TheBlack import *
 
 from bot import TheBlackBot
 from util.keepalive import ping_server
 from bot.clients import initialize_clients
-
+ 
 
 ppath = "plugins/*.py"
 files = glob.glob(ppath)
 TheBlackBot.start()
 loop = asyncio.get_event_loop()
-PORT = "8080"
+PORT = "8080, 8000"
 
 
 async def start():
