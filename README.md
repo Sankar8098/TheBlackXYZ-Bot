@@ -48,7 +48,7 @@
 [x] -
 [x] -
 
-# Commands
+# Commands🫣
 ```
  start - check the bot is alive 
  logs - to get the recent errors [Admin] 
@@ -111,11 +111,11 @@ channel - to get list of total connected channels
  stream -generate online stream and direct download link of your file 
 ```
 
-# Any Doubt To Deoply Repository Contact Me - 
+# Any Doubt To Deoply Repository Contact Me - 💯
 Update Channel 🙂 <a href='https://telegram.dog/TheBlackXYZBotz'>Update Channel</a> Update Regarding For Repo.</b>
 
 
-# Direct Use Env. Just Copy [ Enough For Deoply ]
+# Direct Use Env. Just Copy [ Enough For Deoply ]♾️
 ```
 API_ID
 API_HASH
@@ -127,13 +127,13 @@ LOG_CHANNEL
 
 ```
 
-# Render Required Env.
+# Render Required Env.✅
 ```
 PYTHON_VERSION - 3.10.8
 
 ```
 
-# Variables
+# Variables ✅
 
 # Required Variables
 * <b>`BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
@@ -217,12 +217,13 @@ Edit info.py with variables as given below then run bot
 <hr>
 
 
-# Special Thanks To Everyone 💞
+# Special Thanks To Everyone 💞❤️
  - <b>Thanks To Dan For His Awesome
  - [Library](https://github.com/pyrogram/pyrogram)
  - Thanks To Mayuri-Chan For His Awesome
  - [Library](https://github.com/Mayuri-Chan/pyrofork)
  - Thanks To [Tech VJ]
+ - Thanks To [MrMKN]
  - Thanks To [Eva Mariea]
  - Thanks To [ LazyDeveloperr]
  - Thanks To [ TheBlackXYZBotz]
@@ -236,7 +237,7 @@ Edit info.py with variables as given below then run bot
 
 Fork the repo and edit as per your needs.</b>
 
-## Disclaimer
+## Disclaimer 📄
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
 <b>Licensed under [GNU AGPL 2.0.](https://github.com/TheBlackxyz/TheBlackXYZ-Bot/blob/Black/LICENSE)
 Selling The Codes To Other People For Money Is *Strictly Prohibited*.</b>
