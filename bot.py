@@ -34,14 +34,14 @@ from datetime import date, datetime
 from aiohttp import web
 from plugins import web_server
 #files
-from auto_approve import *
-from rename import *
-from stream import *
-from util import *
-from bot import *
-from template import *
-from server import *
-from TheBlack import *
+from auto_approve import auto_approve
+from rename import add_caption, delete_caption, see_caption, rename, doc, cancel, refunc, viewthumb, removethumb, addthumbs
+from stream import stream, stream_start
+from util import TokenParser, ByteStreamer, Message, get_file_ids, get_media_from_message, get_media_file_size, get_name, get_hash
+from bot import __init__, initialize_clients, start_client, 
+from template import template
+from server import InvalidHash, FIleNotFound
+from TheBlack import StartTime, __version__
 
 from bot import TheBlackBot
 from util.keepalive import ping_server
