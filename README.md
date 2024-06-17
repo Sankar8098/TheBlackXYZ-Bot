@@ -62,7 +62,8 @@
  del - delete a filter 
  delall - delete all filters
  deleteall - delete all indexed files 
- delete - delete a specific file from index 
+ delete - delete a specific file from index
+ index - index fils from you indexing channel 
  info - get user info 
  id - get tg id
  imdb - fetch info from imdb
@@ -109,6 +110,13 @@ channel - to get list of total connected channels
  view_thumb - view your saved thumbnail 
  del_thumb - delete your saved thumbnail
  stream -generate online stream and direct download link of your file 
+ save - restrict download content from you link
+join - send invite link of restricted channel you want download content 
+telegraph - get any post link telegraph  5 MB
+stickerid - to get sticker ID
+font - to get text to amazing font 
+purgerequests - all jion request delete form database 
+totalrequests - get total number of jion request from your database 
 ```
 
 # Any Doubt To Deoply Repository Contact Me - 💯
