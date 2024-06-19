@@ -125,6 +125,10 @@ Update Channel 🙂 <a href='https://telegram.dog/TheBlackXYZBotz'>Update Channe
 # Add from .env
 Paste your .env contents to add multiple environment variables at once.
 
+<details><summary><b>Add From.env</b></summary>
+<p>
+<br>
+<a
 ```
 SESSION
 API_ID
@@ -180,6 +184,9 @@ MULTI_CLIENT
 PING_INTERVAL
 URL
 ```
+</a>
+</p>
+</details>
 
 # Render Env. (compulsory)
 ```
