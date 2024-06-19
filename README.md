@@ -207,6 +207,8 @@ PYTHON_VERSION - 3.10.8
 * Check [info.py](https://github.com/TheBlackxyz/TheBlackXYZ-Bot/info.py) for more optional variables.</b>
 
 
+# Deploy On Multiple Platforms 
+
 <details><summary><b>Deploy To Heroku</b></summary>
 <p>
 <br>
@@ -271,7 +273,7 @@ Edit info.py with variables as given below then run bot
 </details>
 
 <hr>
-
+#____________________________________________________________________________________________________________________________________________#
 
 # Special Thanks To Everyone 💞❤️
  - <b>Thanks To Dan For His Awesome
