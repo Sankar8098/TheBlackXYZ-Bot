@@ -122,21 +122,72 @@ totalrequests - get total number of jion request from your database
 # Any Doubt Then Contact - 💯
 Update Channel 🙂 <a href='https://telegram.dog/TheBlackXYZBotz'>Update Channel</a> Update Regarding For Repo.</b>
 
+# Add from .env
+Paste your .env contents to add multiple environment variables at once.
 
-# Direct Use Env
 ```
+SESSION
 API_ID
 API_HASH
 ADMINS
 BOT_TOKEN
+CACHE_TIME
+PICS
+LOG_CHANNEL
+AUTH_CHANNEL
+REQST_CHANNEL
+FILE_STORE_CHANNEL
+SUPPORT_CHAT_ID
+COLLECTION_NAME
 DATABASE_NAME
 DATABASE_URI
-LOG_CHANNEL
+P_TTI_SHOW_OFF
+IS_TUTORIAL
+MAX_BTN
+IS_SHORTLINK
+PM_SEARCH
+AI_SPELL_CHECK
+SINGLE_BUTTON
+AUTO_DELETE
+AUTO_FFILTER
+IMDB
+MELCOW_NEW_USERS
+SPELL_CHECK_REPLY
+LONG_IMDB_DESCRIPTION
+PROTECT_CONTENT
+VERIFY
+VERIFY_SHORTLINK_URL
+VERIFY_SECOND_SHORTNER
+VERIFY_SHORTLINK_URL
+VERIFY_SHORTLINK_API
+VERIFY_TUTORIAL
+VERIFY_SND_SHORTLINK_API
+VERIFY_SND_SHORTLINK_URL
+SHORTLINK_MODE
+SHORTLINK_URL
+SHORTLINK_API
+PORT
+MAX_B_TN
+RENAME_MODE
+AUTO_APPROVE_MODE
+REQUEST_TO_JOIN_MODE
+TRY_AGAIN_BTN
+SAVE_RESTRICTED_MODE
+SESSION_STRING
+STREAM_MODE
+SLEEP_THRESHOLD
+MULTI_CLIENT
+PING_INTERVAL
+URL
+```
+
+# Render Env. (compulsory)
+```
 PYTHON_VERSION - 3.10.8
 
 ```
 
-# Variables ✅
+# Variable ✅
 # Required Variables
 * <b>`BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
 * `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
