@@ -31,23 +31,32 @@
 ____________________________________________________________________________________________________________________________________________
   
 ## Amazing New Feature 😄
-[x] -
-[x] -
-[x] -
-[x] -
-[x] -
-[x] -
-[x] -
-[x] -
-[x] -
-[x] -
-[x] -
-[x] -
-[x] -
-[x] -
-[x] -
-[x] -
-[x] -
+- [x] Premium Plan Feature 
+- [x] Refer To Get Premium
+- [x] Files Rename Features 
+- [x] Custom Force Subscribe
+- [x] Premium And Refer On / Off 
+- [x] Stream Feature On / Off 
+- [x] Url Shortner On / Off Feature 
+- [x] Pm Search On / Off
+- [x] Request To Join Force Subscribe With Auto File Send 
+- [x] Custom Stream
+- [x] Stream Feature With Many Player Support 
+- [x] Language & Season & Quality & Episode & Year Choose Option
+- [x] Save Restricted Content & On / Off
+- [x] Auto Approve & On / Off
+- [x] Custom Url Shortner Support
+- [x] Token Verification 
+- [x] Send All Button 
+- [x] Custom Tutorial Button
+- [x] Bot Pm File Auto Delete
+- [x] Ai Spell Check 
+- [x] 
+- [x] 
+- [x] 
+- [x] 
+- [x] 
+- [x] 
 
 ____________________________________________________________________________________________________________________________________________
 
