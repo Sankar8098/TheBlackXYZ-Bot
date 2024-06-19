@@ -28,6 +28,7 @@
 <a href="https://youtube.com/@TheBlackXYZ?igshid=YmMyMTA2M2Y="><img alt="replit" src="https://img.shields.io/badge/-youtube-red?style=for-the-badge&logo=youtube&logoColor=white"/></a>
 </p>
 
+____________________________________________________________________________________________________________________________________________
   
 ## Amazing New Feature 😄
 [x] -
@@ -47,6 +48,8 @@
 [x] -
 [x] -
 [x] -
+
+____________________________________________________________________________________________________________________________________________
 
 # Commands🫣
 ```
@@ -189,6 +192,7 @@ URL
 PYTHON_VERSION - 3.10.8
 
 ```
+____________________________________________________________________________________________________________________________________________
 
 # Variable ✅
 # Required Variables
@@ -206,6 +210,7 @@ PYTHON_VERSION - 3.10.8
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
 * Check [info.py](https://github.com/TheBlackxyz/TheBlackXYZ-Bot/info.py) for more optional variables.</b>
 
+____________________________________________________________________________________________________________________________________________
 
 # Deploy On Multiple Platforms 
 
@@ -287,6 +292,8 @@ ________________________________________________________________________________
  - Thanks To [ TheBlackXYZBotz]
  - Thanks To All Everyone In This Journey</b>
 
+____________________________________________________________________________________________________________________________________________
+
 # Note 🏷️
  
 * [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/Itz_rohan_24)
@@ -303,3 +310,5 @@ Selling The Codes To Other People For Money Is *Strictly Prohibited*.</b>
 </pre>
 </p>
 </details>
+____________________________________________________________________________________________________________________________________________
+________________________________________________________ThanYou✅____________________________________________________________________________
