@@ -119,11 +119,11 @@ purgerequests - all jion request delete form database
 totalrequests - get total number of jion request from your database 
 ```
 
-# Any Doubt To Deoply Repository Contact Me - 💯
+# Any Doubt Then Contact - 💯
 Update Channel 🙂 <a href='https://telegram.dog/TheBlackXYZBotz'>Update Channel</a> Update Regarding For Repo.</b>
 
 
-# Direct Use Env. Just Copy [ Enough For Deoply ]♾️
+# Direct Use Env
 ```
 API_ID
 API_HASH
@@ -132,17 +132,11 @@ BOT_TOKEN
 DATABASE_NAME
 DATABASE_URI
 LOG_CHANNEL
-
-```
-
-# Render Required Env.✅
 ```
 PYTHON_VERSION - 3.10.8
-
 ```
 
 # Variables ✅
-
 # Required Variables
 * <b>`BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
 * `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
