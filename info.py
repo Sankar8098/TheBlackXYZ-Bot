@@ -22,9 +22,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'TheBlackBot')
-API_ID = int(environ.get('API_ID', ' '))
-API_HASH = environ.get('API_HASH', ' ')
-BOT_TOKEN = environ.get('BOT_TOKEN', " ")
+API_ID = int(environ.get('API_ID', '29450452'))
+API_HASH = environ.get('API_HASH', '54759945ff88b52777eec9a455944d31')
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -82,11 +82,11 @@ PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", 'Buddy Not 🚫 Found Anything'))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-# Token Verification Info : Thanks To TechVJ 
+# Token Verification Info : Thanks To TheBlackXYZ Botz
 VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'api.onepagelink.in')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '993a512785c8a1df86d296ebdea8b65ce7abe90d'')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '993a512785c8a1df86d296ebdea8b65ce7abe90d')
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'api.onepagelink.in')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '993a512785c8a1df86d296ebdea8b65ce7abe90d')
@@ -122,7 +122,7 @@ REQUEST_TO_JOIN_MODE = bool(environ.get('REQUEST_TO_JOIN_MODE', True)) # Set Tru
 TRY_AGAIN_BTN = bool(environ.get('TRY_AGAIN_BTN', True)) # Set True Or False (This try again button is only for request to join fsub not for normal fsub)
 
 # Save Restricted Info : If True Then Bot Save Content From Restricted Channel Else Not
-SAVE_RESTRICTED_MODE = bool(environ.get('SAVE_RESTRICTED_MODE', False)) # Set True or False
+SAVE_RESTRICTED_MODE = bool(environ.get('SAVE_RESTRICTED_MODE', True)) # Set True or False
 
 
 # if SAVE_RESTRICTED_MODE is True Then Fill String Session Variable In Your Server Environment Variable, If Flase Then No Need To Fill.
