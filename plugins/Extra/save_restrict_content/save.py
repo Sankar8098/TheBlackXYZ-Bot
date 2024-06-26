@@ -101,10 +101,10 @@ async def get_msg(client, sender, edit_id, msg_link, i):
             chat = int('-100' + str(msg_link.split("/")[-2]))
         file = ""
         try:
-            tech_vj_userbot = Client("saverestricted", session_string=SESSION_STRING, api_hash=API_HASH, api_id=API_ID)
-            await tech_vj_userbot.start()
-            msg = await tech_vj_userbot.get_messages(chat, msg_id)
-            if not msg.media:
+            black_userbot = Client("saverestricted", session_string=SESSION_STRING, api_hash=API_HASH, api_id=API_ID)
+            await black_userbot.start()
+            msg = await black_userbot.get_messages(chat, msg_id)
+            if not msg.media
                 if msg.text:
                     edit = await client.edit_message_text(sender, edit_id, "**ᴄʟᴏɴɪɴɢ.**")
                     await client.send_message(sender, msg.text.markdown)
@@ -121,7 +121,7 @@ async def get_msg(client, sender, edit_id, msg_link, i):
                 if msg.document.file_size > MAX:
                     return await client.edit_message_text(sender, edit_id, f"**ғᴀɪʟᴇᴅ ᴛᴏ sᴀᴠᴇ:** `{msg_link}`\n\n**ᴇʀʀᴏʀ: Can't Upload File Bigger Than 2 GB**")
            
-            file = await tech_vj_userbot.download_media(
+            file = await black_userbot.download_media(
                 msg,
                 progress=progress_for_pyrogram,
                 progress_args=(
@@ -141,7 +141,7 @@ async def get_msg(client, sender, edit_id, msg_link, i):
                 height, width, duration = msg.video_note.height, msg.video_note.width, msg.video_note.duration
                 print(f'd: {duration}, w: {width}, h:{height}')
                 try:
-                    thumb_path = await tech_vj_userbot.download_media(msg.video_note.thumbs[0].file_id)
+                    thumb_path = await black_userbot.download_media(msg.video_note.thumbs[0].file_id)
                 except Exception:
                     thumb_path = None
                 await client.send_video_note(
@@ -161,7 +161,7 @@ async def get_msg(client, sender, edit_id, msg_link, i):
                 height, width, duration = msg.video.height, msg.video.width, msg.video.duration
                 print(f'd: {duration}, w: {width}, h:{height}')
                 try:
-                    thumb_path = await tech_vj_userbot.download_media(msg.video.thumbs[0].file_id)
+                    thumb_path = await black_userbot.download_media(msg.video.thumbs[0].file_id)
                 except Exception:
                     thumb_path = None
                 await client.send_video(
@@ -185,7 +185,7 @@ async def get_msg(client, sender, edit_id, msg_link, i):
                 await client.send_photo(sender, file, caption=caption)
             else:
                 try:
-                    thumb_path = await tech_vj_userbot.download_media(msg.document.thumbs[0].file_id)
+                    thumb_path = await black_userbot.download_media(msg.document.thumbs[0].file_id)
                 except Exception:
                     thumb_path = None
                 await client.send_document(
@@ -269,7 +269,7 @@ async def progress_for_pyrogram(
             ''.join([UN_FINISHED_PROGRESS_STR for i in range(10 - math.floor(percentage / 10))]),
             round(percentage, 2))
 
-        tmp = progress + "⏳ **ɢʀᴏss:** **{0}** **ᴏғ** **{1}**\n\n🚀 **sᴘᴇᴇᴅ:** **{2}**/**s**\n\n🕛 **ᴇᴛᴀ:** **{3}**\n\n**Powered By : @VJ_Botz**".format(
+        tmp = progress + "⏳ **ɢʀᴏss:** **{0}** **ᴏғ** **{1}**\n\n🚀 **sᴘᴇᴇᴅ:** **{2}**/**s**\n\n🕛 **ᴇᴛᴀ:** **{3}**\n\n**Powered By : @TheBlackXYZ**".format(
             humanbytes(current),
             humanbytes(total),
             humanbytes(speed),
