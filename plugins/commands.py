@@ -75,7 +75,7 @@ async def start(client, message):
                 InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
+        m=await message.reply_sticker("CAACAgQAAxkBAAII-2Z7qH9R__JYMYmS9mrfheeias0aAAJuDwAC4eqxUNoxB5joJxGiHgQ") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -208,7 +208,7 @@ async def start(client, message):
                     InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                 ]]
             reply_markup = InlineKeyboardMarkup(buttons)
-            m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
+            m=await message.reply_sticker("CAACAgQAAxkBAAII-2Z7qH9R__JYMYmS9mrfheeias0aAAJuDwAC4eqxUNoxB5joJxGiHgQ") 
             await asyncio.sleep(1)
             await m.delete()
             await message.reply_photo(
@@ -1539,7 +1539,7 @@ async def check_plans_cmd(client, message):
             [InlineKeyboardButton("⚠️ ᴄʟᴏsᴇ / ᴅᴇʟᴇᴛᴇ ⚠️", callback_data="close_data")]
         ]
         reply_markup = InlineKeyboardMarkup(btn)
-        m=await message.reply_sticker("CAACAgIAAxkBAAIBTGVjQbHuhOiboQsDm35brLGyLQ28AAJ-GgACglXYSXgCrotQHjibHgQ")         
+        m=await message.reply_sticker("CAACAgQAAxkBAAII-2Z7qH9R__JYMYmS9mrfheeias0aAAJuDwAC4eqxUNoxB5joJxGiHgQ")         
         await message.reply_text(f"**😢 You Don't Have Any Premium Subscription.\n\n Check Out Our Premium /plan**",reply_markup=reply_markup)
         await asyncio.sleep(2)
         await m.delete()
