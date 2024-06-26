@@ -84,7 +84,6 @@ class TheBlackXBot(Client):
                 current += 1
       
 TheBlackBot = TheBlackXBot()
-
 multi_clients = {}
 work_loads = {}
 
