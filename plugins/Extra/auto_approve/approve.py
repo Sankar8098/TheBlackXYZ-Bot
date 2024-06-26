@@ -83,7 +83,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                         InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                     ]]
                 reply_markup = InlineKeyboardMarkup(buttons)
-                m=await client.send_sticker(chat_id = message.from_user.id, sticker = "CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
+                m=await client.send_sticker(chat_id = message.from_user.id, sticker = "CAACAgQAAxkBAAII-2Z7qH9R__JYMYmS9mrfheeias0aAAJuDwAC4eqxUNoxB5joJxGiHgQ") 
                 await asyncio.sleep(1)
                 await m.delete()
                 await client.send_photo(
