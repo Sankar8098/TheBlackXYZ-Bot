@@ -27,8 +27,6 @@ from utils import temp
 from typing import Union, Optional, AsyncGenerator
 from pyrogram import types
 from aiohttp import web
-from pyrogram import Client
-from info import *
 
 class TheBlackXBot(Client):
 
@@ -82,6 +80,7 @@ class TheBlackXBot(Client):
                 current += 1
       
 TheBlackBot = TheBlackXBot()
+
 multi_clients = {}
 work_loads = {}
 
