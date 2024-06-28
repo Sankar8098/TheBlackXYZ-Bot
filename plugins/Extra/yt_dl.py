@@ -8,15 +8,12 @@
 
 
 from __future__ import unicode_literals
-
 import os, requests, asyncio, math, time, wget
 from pyrogram import filters, Client
 from pyrogram.types import Message
-
 from youtube_search import YoutubeSearch
 from youtubesearchpython import SearchVideos
 from yt_dlp import YoutubeDL
-
 
 @Client.on_message(filters.command(['song', 'mp3']) & filters.private)
 async def song(client, message):
@@ -27,7 +24,7 @@ async def song(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = await message.reply(f"**ѕєαrchíng чσur ѕσng...!\n {query}**")
+    m = await message.reply(f"**Searching Song By TheBlackXYZ...!\n {query}**")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -43,7 +40,7 @@ async def song(client, message):
         views = results[0]["views"]
     except Exception as e:
         print(str(e))
-        return await m.edit("Example: /song hum tere bin raha nahi sakte song")
+        return await m.edit("Example: /song Tere Bin song")
                 
     await m.edit("**dσwnlσαdíng чσur ѕσng...!**")
     try:
